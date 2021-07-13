@@ -13,6 +13,8 @@
 		3A006D4D269E1475006C8F3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A006D4C269E1475006C8F3D /* Preview Assets.xcassets */; };
 		3A006D4F269E1475006C8F3D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D4E269E1475006C8F3D /* Persistence.swift */; };
 		3A006D52269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D50269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld */; };
+		3A006D5B269E1590006C8F3D /* PaginaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */; };
+		3A006D5E269E15B0006C8F3D /* BastaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D5D269E15B0006C8F3D /* BastaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3A006D4E269E1475006C8F3D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3A006D51269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdrianPlaygrounds.xcdatamodel; sourceTree = "<group>"; };
 		3A006D53269E1475006C8F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginaPrincipal.swift; sourceTree = "<group>"; };
+		3A006D5D269E15B0006C8F3D /* BastaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,11 @@
 		3A006D44269E1474006C8F3D /* AdrianPlaygrounds */ = {
 			isa = PBXGroup;
 			children = (
-				3A006D45269E1474006C8F3D /* AdrianPlaygroundsApp.swift */,
-				3A006D47269E1474006C8F3D /* ContentView.swift */,
-				3A006D49269E1475006C8F3D /* Assets.xcassets */,
-				3A006D4E269E1475006C8F3D /* Persistence.swift */,
 				3A006D53269E1475006C8F3D /* Info.plist */,
-				3A006D50269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld */,
+				3A006D5C269E159F006C8F3D /* Basta */,
+				3A006D59269E1505006C8F3D /* Helpers */,
+				3A006D45269E1474006C8F3D /* AdrianPlaygroundsApp.swift */,
+				3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */,
 				3A006D4B269E1475006C8F3D /* Preview Content */,
 			);
 			path = AdrianPlaygrounds;
@@ -73,6 +76,25 @@
 				3A006D4C269E1475006C8F3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A006D59269E1505006C8F3D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A006D4E269E1475006C8F3D /* Persistence.swift */,
+				3A006D47269E1474006C8F3D /* ContentView.swift */,
+				3A006D49269E1475006C8F3D /* Assets.xcassets */,
+				3A006D50269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A006D5C269E159F006C8F3D /* Basta */ = {
+			isa = PBXGroup;
+			children = (
+				3A006D5D269E15B0006C8F3D /* BastaView.swift */,
+			);
+			path = Basta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +170,8 @@
 				3A006D52269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld in Sources */,
 				3A006D48269E1474006C8F3D /* ContentView.swift in Sources */,
 				3A006D46269E1474006C8F3D /* AdrianPlaygroundsApp.swift in Sources */,
+				3A006D5E269E15B0006C8F3D /* BastaView.swift in Sources */,
+				3A006D5B269E1590006C8F3D /* PaginaPrincipal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
