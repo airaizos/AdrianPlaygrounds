@@ -8,53 +8,74 @@
 import SwiftUI
 
 struct BastaView: View {
-    let abcd = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","Y","Z"]
+
+    @ObservedObject var modelo = JuegoBasta()
+    let gridItem = [GridItem(.adaptive(minimum: 50))]
     
-    @State private var letra = ""
-    
-    @State private var puntos = 0
-    @State private var palabra = ""
+   @State private var iniciado = false
     
     var body: some View {
       
         VStack{
             Button(action: {
-                letra = abcd[Int.random(in: 0..<abcd.count)]
+                modelo.letra = modelo.abcd[Int.random(in: 0..<modelo.abcd.count)]
+                modelo.palabrasEscritas = []
+                modelo.puntos = 0
+                iniciado.toggle()
+                
             }
                    , label: {
                 Text("Empezar")
             })
             ZStack {
                 Circle()
-                    .foregroundColor(.gray)
-                    .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        Text("\(letra)")
-            .font(.largeTitle)
+                    .foregroundColor(Color(red: 0.66, green: 0.33, blue: 77, opacity: 0.4))
+                    .frame(width: 100, height: 100, alignment: .bottom)
+                Text("\(modelo.letra)")
+            .font(.system(size: 70))
+                    .foregroundColor(.white)
             .bold()
             } .padding()
             
-            Text("Puntos: \(puntos)")
+            VStack {
+            Text("Puntos: \(modelo.puntos)")
             
-            TextField("Palabra", text: $palabra)
+            TextField("Palabra", text: $modelo.palabra)
                
           
             Button(action: {
-                let palabraGuardada = palabra
-                
-                if palabraGuardada.hasPrefix("\(letra)") {
-                    puntos += 3
-                    palabra = ""
+                modelo.palabraGuardada = modelo.palabra
+             
+                if modelo.palabrasEscritas.firstIndex(of: "\(modelo.palabraGuardada)") != nil {
+                    modelo.puntos += 0
+                    modelo.palabra = ""
+                    
+                    
+            } else if modelo.palabraGuardada.hasPrefix("\(modelo.letra)") {
+                    modelo.puntos += 3
+                    modelo.palabra = ""
+                    modelo.palabrasEscritas.append(modelo.palabraGuardada)
                     
                 } else {
-                    puntos -= 1
-                    palabra = ""
+                    modelo.puntos -= 1
+                    modelo.palabra = ""
                 }
             }
                    , label: {
                 Text("Siguiente")
-            })
-            Spacer()
+                   })
             
+            
+            Spacer()
+            LazyVGrid(columns: gridItem, alignment: .leading, spacing: 10) {
+            ForEach(modelo.palabrasEscritas, id:\.self) { palabra in
+                Text("\(palabra)")
+                    .font(.footnote)
+                    .foregroundColor(.gray)
+                }
+            }
+            }.disabled(iniciado ? false : true)
+            Spacer()
             Text("Instrucciones: Escribe una palabra que inicie con la letra que aparece y gana 3 puntos, sino pierdes 1").multilineTextAlignment(.center)
         } .padding()
     }
@@ -62,6 +83,6 @@ struct BastaView: View {
 
 struct BastaView_Previews: PreviewProvider {
     static var previews: some View {
-        BastaView()
+        BastaView(modelo: JuegoBasta())
     }
 }
