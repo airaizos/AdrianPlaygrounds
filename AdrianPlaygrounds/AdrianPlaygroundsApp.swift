@@ -13,7 +13,7 @@ struct AdrianPlaygroundsApp: App {
 
     var body: some Scene {
         WindowGroup {
-           BastaView()
+           DNIView()
                 
         }
     }
