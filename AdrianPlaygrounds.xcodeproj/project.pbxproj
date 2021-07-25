@@ -15,9 +15,14 @@
 		3A006D52269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D50269E1475006C8F3D /* AdrianPlaygrounds.xcdatamodeld */; };
 		3A006D5B269E1590006C8F3D /* PaginaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */; };
 		3A006D5E269E15B0006C8F3D /* BastaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A006D5D269E15B0006C8F3D /* BastaView.swift */; };
+		3A06092E26ADC2C8005F5488 /* PiedraPapelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06092D26ADC2C8005F5488 /* PiedraPapelModel.swift */; };
+		3A06093026ADC2D5005F5488 /* PiedraPapelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06092F26ADC2D5005F5488 /* PiedraPapelView.swift */; };
 		3A15659D269F3A7000EA9883 /* BastaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15659C269F3A7000EA9883 /* BastaModel.swift */; };
 		3A1565A0269F458F00EA9883 /* DNIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15659F269F458F00EA9883 /* DNIView.swift */; };
 		3A1565A2269F45C600EA9883 /* DNIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1565A1269F45C600EA9883 /* DNIModel.swift */; };
+		3A607B6226A21D1D0050BE80 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A607B6126A21D1D0050BE80 /* tips.json */; };
+		3AE6467126A0CF190042D283 /* AhorcadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6467026A0CF190042D283 /* AhorcadoView.swift */; };
+		3AE6467326A0CFEB0042D283 /* AhorcadoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +36,14 @@
 		3A006D53269E1475006C8F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginaPrincipal.swift; sourceTree = "<group>"; };
 		3A006D5D269E15B0006C8F3D /* BastaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastaView.swift; sourceTree = "<group>"; };
+		3A06092D26ADC2C8005F5488 /* PiedraPapelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelModel.swift; sourceTree = "<group>"; };
+		3A06092F26ADC2D5005F5488 /* PiedraPapelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelView.swift; sourceTree = "<group>"; };
 		3A15659C269F3A7000EA9883 /* BastaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastaModel.swift; sourceTree = "<group>"; };
 		3A15659F269F458F00EA9883 /* DNIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNIView.swift; sourceTree = "<group>"; };
 		3A1565A1269F45C600EA9883 /* DNIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNIModel.swift; sourceTree = "<group>"; };
+		3A607B6126A21D1D0050BE80 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		3AE6467026A0CF190042D283 /* AhorcadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoView.swift; sourceTree = "<group>"; };
+		3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,8 @@
 		3A006D44269E1474006C8F3D /* AdrianPlaygrounds */ = {
 			isa = PBXGroup;
 			children = (
+				3A06092C26ADC2A6005F5488 /* PiedraPapelTijeras */,
+				3AE6466F26A0CE260042D283 /* Ahorcado */,
 				3A006D53269E1475006C8F3D /* Info.plist */,
 				3A15659E269F457700EA9883 /* DNI */,
 				3A006D5C269E159F006C8F3D /* Basta */,
@@ -105,6 +117,15 @@
 			path = Basta;
 			sourceTree = "<group>";
 		};
+		3A06092C26ADC2A6005F5488 /* PiedraPapelTijeras */ = {
+			isa = PBXGroup;
+			children = (
+				3A06092D26ADC2C8005F5488 /* PiedraPapelModel.swift */,
+				3A06092F26ADC2D5005F5488 /* PiedraPapelView.swift */,
+			);
+			path = PiedraPapelTijeras;
+			sourceTree = "<group>";
+		};
 		3A15659E269F457700EA9883 /* DNI */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +133,16 @@
 				3A1565A1269F45C600EA9883 /* DNIModel.swift */,
 			);
 			path = DNI;
+			sourceTree = "<group>";
+		};
+		3AE6466F26A0CE260042D283 /* Ahorcado */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6467026A0CF190042D283 /* AhorcadoView.swift */,
+				3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */,
+				3A607B6126A21D1D0050BE80 /* tips.json */,
+			);
+			path = Ahorcado;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +204,7 @@
 			files = (
 				3A006D4D269E1475006C8F3D /* Preview Assets.xcassets in Resources */,
 				3A006D4A269E1475006C8F3D /* Assets.xcassets in Resources */,
+				3A607B6226A21D1D0050BE80 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,10 +220,14 @@
 				3A006D48269E1474006C8F3D /* ContentView.swift in Sources */,
 				3A006D46269E1474006C8F3D /* AdrianPlaygroundsApp.swift in Sources */,
 				3A006D5E269E15B0006C8F3D /* BastaView.swift in Sources */,
+				3A06092E26ADC2C8005F5488 /* PiedraPapelModel.swift in Sources */,
+				3A06093026ADC2D5005F5488 /* PiedraPapelView.swift in Sources */,
 				3A1565A2269F45C600EA9883 /* DNIModel.swift in Sources */,
+				3AE6467326A0CFEB0042D283 /* AhorcadoModel.swift in Sources */,
 				3A006D5B269E1590006C8F3D /* PaginaPrincipal.swift in Sources */,
 				3A1565A0269F458F00EA9883 /* DNIView.swift in Sources */,
 				3A15659D269F3A7000EA9883 /* BastaModel.swift in Sources */,
+				3AE6467126A0CF190042D283 /* AhorcadoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
