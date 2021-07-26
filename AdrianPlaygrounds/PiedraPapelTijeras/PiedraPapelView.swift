@@ -21,6 +21,8 @@ struct PiedraPapelView: View {
     }
 }
 
+// commit
+
 struct PiedraPapelView_Previews: PreviewProvider {
     static var previews: some View {
         PiedraPapelView()
