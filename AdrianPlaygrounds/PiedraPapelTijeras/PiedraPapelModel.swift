@@ -53,9 +53,7 @@ struct PiedraPapel {
         case ["🖖🏽","✊🏼"] : puntosPhone += 1
             
             
-            
-            
-        case ["",""] : puntosPhone += 1
+    //push
             
         default: break
         
