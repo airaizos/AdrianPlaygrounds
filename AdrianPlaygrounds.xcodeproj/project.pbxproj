@@ -23,6 +23,7 @@
 		3A607B6226A21D1D0050BE80 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A607B6126A21D1D0050BE80 /* tips.json */; };
 		3AE6467126A0CF190042D283 /* AhorcadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6467026A0CF190042D283 /* AhorcadoView.swift */; };
 		3AE6467326A0CFEB0042D283 /* AhorcadoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */; };
+		3AF38AB326AF016900E66CD3 /* PiedraPapelCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF38AB226AF016900E66CD3 /* PiedraPapelCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3A607B6126A21D1D0050BE80 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		3AE6467026A0CF190042D283 /* AhorcadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoView.swift; sourceTree = "<group>"; };
 		3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoModel.swift; sourceTree = "<group>"; };
+		3AF38AB226AF016900E66CD3 /* PiedraPapelCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				3A06092D26ADC2C8005F5488 /* PiedraPapelModel.swift */,
 				3A06092F26ADC2D5005F5488 /* PiedraPapelView.swift */,
+				3AF38AB226AF016900E66CD3 /* PiedraPapelCircle.swift */,
 			);
 			path = PiedraPapelTijeras;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				3AE6467326A0CFEB0042D283 /* AhorcadoModel.swift in Sources */,
 				3A006D5B269E1590006C8F3D /* PaginaPrincipal.swift in Sources */,
 				3A1565A0269F458F00EA9883 /* DNIView.swift in Sources */,
+				3AF38AB326AF016900E66CD3 /* PiedraPapelCircle.swift in Sources */,
 				3A15659D269F3A7000EA9883 /* BastaModel.swift in Sources */,
 				3AE6467126A0CF190042D283 /* AhorcadoView.swift in Sources */,
 			);
