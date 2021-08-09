@@ -11,9 +11,9 @@ import AVFoundation
 struct PiedraPapelView: View {
     
     @State private var escalaAnimacion:[Double] = [0,0,0,0,0]
-  @State private var idCarta = 0
+    @State private var idCarta = 0
     
-
+    
     
     
     @ObservedObject var partida = PiedraPapel()
@@ -37,14 +37,14 @@ struct PiedraPapelView: View {
             Button("Reiniciar"){
                 
                 partida.start()
-           
+                
             }
             Section{
                 VStack(alignment: .leading, spacing: nil){
                     
                     LazyHGrid(rows: gridScore, alignment: .center, spacing: 45) {
                         VStack(alignment: .leading, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/){
-                          
+                            
                             Text("Phone")
                             Text("Humano").foregroundColor(humanColor)
                             
@@ -72,9 +72,10 @@ struct PiedraPapelView: View {
                 
             }
             
-            // MARK: TODO: animar pasando todas las characters
+            // MARK: TODO: animar pasando todas las characters: https://www.youtube.com/watch?v=1f56Xe5hwK4
             
             //MARK: PHONE
+         
             
             
             PiedraPapelCircle(pieza: partida.phone, color: phoneColor, axis: [1,1,1],escalaAnimacion: [escalaAnimacion[partida.idCarta]])
@@ -83,14 +84,14 @@ struct PiedraPapelView: View {
             //MARK: Texto
             
             Text("\(partida.ganador)")
-               
+                
                 .animation(Animation.linear)
                 .font(.system(size: 20, weight: .bold))
-                
+            
             
             // MARK: HUMANO
             
-                ZStack{
+            ZStack{
                 PiedraPapelCircle(pieza: partida.humano,color: humanColor, axis: [0,1,0],escalaAnimacion: [escalaAnimacion[partida.idCarta]])
             }
             
@@ -100,21 +101,21 @@ struct PiedraPapelView: View {
                 //                Button("Tap Me"){
                 //                    self.escalaAnimacion += 1
                 //                }
-               // MARK: TODO: Giran todos con el ForEach. STRUCT CON i?
-//                ForEach (partida.cartas, id:\.self) {  carta in
-//
-//
-//                    Button("\(carta)") {
-//
-//                        partida.puntoJugado(humanoB: "\(carta)")
-//                        withAnimation{
-//                            self.escalaAnimacion[0] += 360
-//
-//                        }
-//                    }.rotation3DEffect(.degrees(escalaAnimacion[0]), axis: (x: 0, y: 1, z: 0))
-//
-//                }
-
+                // MARK: TODO: Giran todos con el ForEach. STRUCT CON i?
+                //                ForEach (partida.cartas, id:\.self) {  carta in
+                //
+                //
+                //                    Button("\(carta)") {
+                //
+                //                        partida.puntoJugado(humanoB: "\(carta)")
+                //                        withAnimation{
+                //                            self.escalaAnimacion[0] += 360
+                //
+                //                        }
+                //                    }.rotation3DEffect(.degrees(escalaAnimacion[0]), axis: (x: 0, y: 1, z: 0))
+                //
+                //                }
+                
                 Button("✊🏼") {
                     partida.puntoJugado(humanoB: "✊🏼")
                     
@@ -133,14 +134,14 @@ struct PiedraPapelView: View {
                 
                 Button("✌🏼") {
                     partida.puntoJugado(humanoB: "✌🏼")
-                   
+                    
                     withAnimation{
                         self.escalaAnimacion[2] += 360
                     }
                 }.rotation3DEffect(.degrees(escalaAnimacion[2]), axis: (x: 0, y: 1, z: 0))
                 Button("🦎") {
                     partida.puntoJugado(humanoB: "🦎")
-                   
+                    
                     withAnimation{
                         self.escalaAnimacion[3] += 360
                     }

@@ -10,11 +10,19 @@ import SwiftUI
 @main
 struct AdrianPlaygroundsApp: App {
    
-
+    
+   @StateObject private var catalogo = Catalogo()
+ var fortuna = GastaFortunas()
     var body: some Scene {
+        
         WindowGroup {
-           PiedraPapelView()
+            NavigationView{
+            
+                GastaFortunasView(filtro: .Arte)
+            .environmentObject(catalogo)
+                    .environmentObject(fortuna)
                 
+            }
         }
     }
 }

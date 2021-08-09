@@ -1,0 +1,314 @@
+[
+{
+"id": 1,
+"nombre": "100 hectáreas de tierra",
+"precio": 4618217.99,
+"categoria": "Inmuebles",
+"foto": "100hectareas"
+},
+{
+"id": 2,
+"nombre": "Piso en Zaragoza",
+"precio": 562517.99,
+"categoria": "Inmuebles",
+"foto": "apartamento"
+},
+{
+"id": 3,
+"nombre": "Piso en Paris",
+"precio": 3308017.99,
+"categoria": "Inmuebles",
+"foto": "apartamentoparis"
+},
+{
+"id": 4,
+"nombre": "Bugatti La Voiture Negro",
+"precio": 16182017.99,
+"categoria": "Transporte",
+"foto": "bugatti"
+},
+{
+"id": 5,
+"nombre": "Casa en Los Ángeles",
+"precio": 6308017.99,
+"categoria": "Inmuebles",
+"foto": "casala"
+},
+{
+"id": 6,
+"nombre": "Bono de 10 cirugías estéticas",
+"precio": 124237.99,
+"categoria": "Personal",
+"foto": "cirugiatotal"
+},
+{
+"id": 7,
+"nombre": "Comer siempre fuera durante 80 años",
+"precio": 271217.99,
+"categoria": "Personal",
+"foto": "comerfuera"
+},
+{
+"id": 8,
+"nombre": "Anillo de diamantes",
+"precio": 1618217.99,
+"categoria": "Personal",
+"foto": "diamondring"
+},
+{
+"id": 9,
+"nombre": "Edificio de 35 pisos y 10 locales",
+"precio": 14562517.99,
+"categoria": "Inmuebles",
+"foto": "edificio"
+},
+{
+"id": 10,
+"nombre": "Equipo Ferrari F1",
+"precio": 791308017.99,
+"categoria": "Equipos",
+"foto": "equipoformula1"
+},
+{
+"id": 11,
+"nombre": "Equipo NBA:Dallas Mavericks",
+"precio": 2712308017.99,
+"categoria": "Equipos",
+"foto": "equiponba"
+},
+{
+"id": 12,
+"nombre": "Equipo NFL:Miami Dolphins",
+"precio": 3712308017.99,
+"categoria": "Equipos",
+"foto": "equiponfl"
+},
+{
+"id": 13,
+"nombre": "Ferrari F8",
+"precio": 289017.99,
+"categoria": "Transporte",
+"foto": "ferrarif8"
+},
+{
+"id": 14,
+"nombre": "Fiat 500",
+"precio": 19017.99,
+"categoria": "Transporte",
+"foto": "fiat500"
+},
+{
+"id": 15,
+"nombre": "Ford F150",
+"precio": 75917.99,
+"categoria": "Transporte",
+"foto": "fordf150"
+},
+{
+"id": 16,
+"nombre": "Helicóptero Bell 206",
+"precio": 791017.99,
+"categoria": "Transporte",
+"foto": "helicoptero"
+},
+{
+"id": 17,
+"nombre": "iPhone 12 Pro Max ",
+"precio": 1399.99,
+"categoria": "Personal",
+"foto": "iphonepro"
+},
+{
+"id": 18,
+"nombre": "Isla Privada en el Caribe",
+"precio": 5954237.99,
+"categoria": "Inmuebles",
+"foto": "islaprivada"
+},
+{
+"id": 19,
+"nombre": "Jet Gulfstream G450",
+"precio": 17914237.99,
+"categoria": "Transporte",
+"foto": "jetprivado"
+},
+{
+"id": 20,
+"nombre": "Lamborghini Aventador SVJ Verde",
+"precio": 54017.99,
+"categoria": "Transporte",
+"foto": "lamborghini"
+},
+{
+"id": 21,
+"nombre": "Mujeres de Argel (Picasso)",
+"precio": 180712617.99,
+"categoria": "Arte",
+"foto": "lasfemmesdalger"
+},
+{
+"id": 22,
+"nombre": "TV LG 88 pulgadas OLED 8K ThinQ",
+"precio": 19999.99,
+"categoria": "Tecnología",
+"foto": "lg88"
+},
+{
+"id": 23,
+"nombre": "Mac Pro 202",
+"precio": 53799.99,
+"categoria": "Tecnología",
+"foto": "macpro"
+},
+{
+"id": 24,
+"nombre": "Mansión en Los Angeles",
+"precio": 52789145.99,
+"categoria": "Inmuebles",
+"foto": "mansionla"
+},
+{
+"id": 25,
+"nombre": "La Monalisa",
+"precio": 869135743.99,
+"categoria": "Arte",
+"foto": "monalisa"
+},
+{
+"id": 26,
+"nombre": "Netflix:Suscripción vitalicia",
+"precio": 13788,
+"categoria": "Personal",
+"foto": "netflix"
+},
+{
+"id": 27,
+"nombre": "Nintendo Switch",
+"precio": 499.99,
+"categoria": "Tecnología",
+"foto": "nintendoswitch"
+},
+{
+"id": 28,
+"nombre": "GPU Nvidia. Producción 2022",
+"precio": 956334148.99,
+"categoria": "Tecnología",
+"foto": "nvidiagpu"
+},
+{
+"id": 29,
+"nombre": "Producir Fast & Furious 15",
+"precio": 120567987.12,
+"categoria": "Arte",
+"foto": "producirpeli"
+},
+{
+"id": 30,
+"nombre": "PlayStation 5",
+"precio": 699.99,
+"categoria": "Tecnología",
+"foto": "ps5"
+},
+{
+"id": 31,
+"nombre": "Portátil Razor Blade 14",
+"precio": 3134.99,
+"categoria": "Tecnología",
+"foto": "razorblade"
+},
+{
+"id": 32,
+"nombre": "Relojo Rolex",
+"precio": 15823.77,
+"categoria": "Personal",
+"foto": "rolex"
+},
+{
+"id": 33,
+"nombre": "Velero",
+"precio": 145424.99,
+"categoria": "Transporte",
+"foto": "sailboat"
+},
+{
+"id": 34,
+"nombre": "Spotify.Suscripción Vitalicia",
+"precio": 15235.99,
+"categoria": "Personal",
+"foto": "spotify"
+},
+{
+"id": 35,
+"nombre": "Steam. Catálogo completo",
+"precio": 815722.99,
+"categoria": "Tecnología",
+"foto": "steam"
+},
+{
+"id": 36,
+"nombre": "Tanque de Guerra M1",
+"precio": 8158732.99,
+"categoria": "Transporte",
+"foto": "tanquem1"
+},
+{
+"id": 37,
+"nombre": "Tesla Modelo S",
+"precio": 156822.99,
+"categoria": "Transporte",
+"foto": "teslamodels"
+},
+{
+"id": 38,
+"nombre": "Toyota Camry",
+"precio": 39623.88,
+"categoria": "Transporte",
+"foto": "toyotacamry"
+},
+{
+"id": 39,
+"nombre": "PC para Gamers",
+"precio": 7911.99,
+"categoria": "Tecnología",
+"foto": "ultimatepc"
+},
+{
+"id": 40,
+"nombre": "Carrera universitaria en EEUU",
+"precio": 189633.99,
+"categoria": "Personal",
+"foto": "universidadusa"
+},
+{
+"id": 41,
+"nombre": "Vacaciones:1 semana en cada país del mundo",
+"precio": 2567325.99,
+"categoria": "Personal",
+"foto": "vacacionespaises"
+},
+{
+"id": 42,
+"nombre": "Xbox",
+"precio": 599.11,
+"categoria": "Tecnología",
+"foto": "xbox"
+},
+{
+"id": 43,
+"nombre": "Mega Yate",
+"precio": 450124124.12,
+"categoria": "yate",
+"foto": "yate"
+}
+]
+
+
+
+
+
+
+
+
+
+
+
