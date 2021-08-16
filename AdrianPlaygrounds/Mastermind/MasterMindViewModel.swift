@@ -42,7 +42,7 @@ class MasterMindViewModel: ObservableObject {
     //MARK: Funcion empezar
     func crearJuego() -> Array<Character> {
         var juegoCanica: [Character] {
-                switch canicas {
+            switch canicas {
                 case "❤️" : return ["❤️","💛","💚","💜"]
                 case "🏋🏻‍♀️" : return ["🏋🏻‍♀️","🤼‍♀️","🤸🏻‍♀️","⛹🏻‍♀️"]
                 case "🏈" : return ["⚽️","🏀","🏈","⚾️"]
