@@ -28,7 +28,6 @@ class MasterMindViewModel: ObservableObject {
     var intentoArray: [Character] = []
     var intentoCuenta: Int = 0
     var cuentaIntentos = 0
-
     
     //MARK: Tipos de Canicas
     @Published var canicas: Character = "🏋🏻‍♀️"
@@ -129,7 +128,6 @@ class MasterMindViewModel: ObservableObject {
                     intentoActual.aciertos.append("🔴")
                 }
             }
-        
    
         print("intentoActual.Canicas\(intentoActual.canicas)")
         intentos.insert(intentoActual, at: 0)
@@ -139,20 +137,7 @@ class MasterMindViewModel: ObservableObject {
             gameOver = true
         }
     }
-    
 
     //final de la clase
 }
 
-/*
- Seudocodigo:
- 
- youWin
- gameOver
- 
- Elige canicas
- Empezar
- Intentar
- 
- 
- */
