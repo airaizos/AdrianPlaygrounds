@@ -17,10 +17,13 @@ struct AdrianPlaygroundsApp: App {
         
         WindowGroup {
             NavigationView{
-            
-                GastaFortunasView(filtro: .Arte)
-            .environmentObject(catalogo)
-                    .environmentObject(fortuna)
+            MasterMindView()
+                
+                
+                
+//                GastaFortunasView(filtro: .Arte)
+//            .environmentObject(catalogo)
+//                    .environmentObject(fortuna)
                 
             }
         }

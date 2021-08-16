@@ -31,7 +31,7 @@ struct CategoriasView: View {
                 HStack{
                     ForEach(categoriasFiltradas) { articulo in
                         
-                        articuloView(articulo: articulo, categoria: filtro, fortuna: _fortuna)
+                        articuloView(fortuna: _fortuna, articulo: articulo, categoria: filtro)
                     }
                 }
             }

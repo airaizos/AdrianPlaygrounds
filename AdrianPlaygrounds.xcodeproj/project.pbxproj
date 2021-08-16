@@ -20,7 +20,11 @@
 		3A15659D269F3A7000EA9883 /* BastaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15659C269F3A7000EA9883 /* BastaModel.swift */; };
 		3A1565A0269F458F00EA9883 /* DNIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15659F269F458F00EA9883 /* DNIView.swift */; };
 		3A1565A2269F45C600EA9883 /* DNIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1565A1269F45C600EA9883 /* DNIModel.swift */; };
+		3A1D9FA426CADE4700D9CFA5 /* MasterMindYouWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D9FA326CADE4700D9CFA5 /* MasterMindYouWin.swift */; };
 		3A607B6226A21D1D0050BE80 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A607B6126A21D1D0050BE80 /* tips.json */; };
+		3A6AD8E126C1418200EAA5DF /* MasterMindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AD8E026C1418200EAA5DF /* MasterMindView.swift */; };
+		3A6AD8E326C1418D00EAA5DF /* MasterMindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AD8E226C1418D00EAA5DF /* MasterMindModel.swift */; };
+		3A6AD8E526C1419900EAA5DF /* MasterMindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AD8E426C1419900EAA5DF /* MasterMindViewModel.swift */; };
 		3AE6467126A0CF190042D283 /* AhorcadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6467026A0CF190042D283 /* AhorcadoView.swift */; };
 		3AE6467326A0CFEB0042D283 /* AhorcadoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */; };
 		3AE6D64C26B8446400819C51 /* GastaFortunasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6D64B26B8446400819C51 /* GastaFortunasView.swift */; };
@@ -51,7 +55,11 @@
 		3A15659C269F3A7000EA9883 /* BastaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastaModel.swift; sourceTree = "<group>"; };
 		3A15659F269F458F00EA9883 /* DNIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNIView.swift; sourceTree = "<group>"; };
 		3A1565A1269F45C600EA9883 /* DNIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNIModel.swift; sourceTree = "<group>"; };
+		3A1D9FA326CADE4700D9CFA5 /* MasterMindYouWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindYouWin.swift; sourceTree = "<group>"; };
 		3A607B6126A21D1D0050BE80 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		3A6AD8E026C1418200EAA5DF /* MasterMindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindView.swift; sourceTree = "<group>"; };
+		3A6AD8E226C1418D00EAA5DF /* MasterMindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindModel.swift; sourceTree = "<group>"; };
+		3A6AD8E426C1419900EAA5DF /* MasterMindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindViewModel.swift; sourceTree = "<group>"; };
 		3AE6467026A0CF190042D283 /* AhorcadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoView.swift; sourceTree = "<group>"; };
 		3AE6467226A0CFEB0042D283 /* AhorcadoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoModel.swift; sourceTree = "<group>"; };
 		3AE6D64B26B8446400819C51 /* GastaFortunasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastaFortunasView.swift; sourceTree = "<group>"; };
@@ -96,15 +104,16 @@
 		3A006D44269E1474006C8F3D /* AdrianPlaygrounds */ = {
 			isa = PBXGroup;
 			children = (
+				3A6AD8DF26C140DC00EAA5DF /* Mastermind */,
 				3AF0ED7E26AF46CC00C95951 /* GastarBillones */,
 				3A06092C26ADC2A6005F5488 /* PiedraPapelTijeras */,
 				3AE6466F26A0CE260042D283 /* Ahorcado */,
-				3A006D53269E1475006C8F3D /* Info.plist */,
-				3A15659E269F457700EA9883 /* DNI */,
 				3A006D5C269E159F006C8F3D /* Basta */,
+				3A15659E269F457700EA9883 /* DNI */,
 				3A006D59269E1505006C8F3D /* Helpers */,
 				3A006D45269E1474006C8F3D /* AdrianPlaygroundsApp.swift */,
 				3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */,
+				3A006D53269E1475006C8F3D /* Info.plist */,
 				3A006D4B269E1475006C8F3D /* Preview Content */,
 			);
 			path = AdrianPlaygrounds;
@@ -155,6 +164,17 @@
 				3A1565A1269F45C600EA9883 /* DNIModel.swift */,
 			);
 			path = DNI;
+			sourceTree = "<group>";
+		};
+		3A6AD8DF26C140DC00EAA5DF /* Mastermind */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D9FA326CADE4700D9CFA5 /* MasterMindYouWin.swift */,
+				3A6AD8E026C1418200EAA5DF /* MasterMindView.swift */,
+				3A6AD8E426C1419900EAA5DF /* MasterMindViewModel.swift */,
+				3A6AD8E226C1418D00EAA5DF /* MasterMindModel.swift */,
+			);
+			path = Mastermind;
 			sourceTree = "<group>";
 		};
 		3AE6466F26A0CE260042D283 /* Ahorcado */ = {
@@ -278,10 +298,14 @@
 				3A006D5E269E15B0006C8F3D /* BastaView.swift in Sources */,
 				3AFC3D4F26C06AF4003BA375 /* InvoiceView.swift in Sources */,
 				3A06092E26ADC2C8005F5488 /* PiedraPapelModel.swift in Sources */,
+				3A1D9FA426CADE4700D9CFA5 /* MasterMindYouWin.swift in Sources */,
 				3A06093026ADC2D5005F5488 /* PiedraPapelView.swift in Sources */,
 				3AE6D65826B85C5600819C51 /* GastaFortunasModel.swift in Sources */,
+				3A6AD8E126C1418200EAA5DF /* MasterMindView.swift in Sources */,
 				3A1565A2269F45C600EA9883 /* DNIModel.swift in Sources */,
+				3A6AD8E526C1419900EAA5DF /* MasterMindViewModel.swift in Sources */,
 				3AE6467326A0CFEB0042D283 /* AhorcadoModel.swift in Sources */,
+				3A6AD8E326C1418D00EAA5DF /* MasterMindModel.swift in Sources */,
 				3AE6D65226B8456B00819C51 /* articulo.swift in Sources */,
 				3AE6D64E26B8447000819C51 /* Catalogo.swift in Sources */,
 				3A006D5B269E1590006C8F3D /* PaginaPrincipal.swift in Sources */,
