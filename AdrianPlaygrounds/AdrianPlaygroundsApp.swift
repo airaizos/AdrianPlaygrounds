@@ -9,23 +9,15 @@ import SwiftUI
 
 @main
 struct AdrianPlaygroundsApp: App {
-   
+   @StateObject private var modeloArticulos = ModeloArticulos()
     
-   @StateObject private var catalogo = Catalogo()
- var fortuna = GastaFortunas()
     var body: some Scene {
         
         WindowGroup {
-            NavigationView{
-            MasterMindView()
+           
+            PaginaPrincipal()
+                   
                 
-                
-                
-//                GastaFortunasView(filtro: .Arte)
-//            .environmentObject(catalogo)
-//                    .environmentObject(fortuna)
-                
-            }
         }
     }
 }

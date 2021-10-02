@@ -1,41 +1,34 @@
+////
+////  CategoriasView.swift
+////  AdrianPlaygrounds
+////
+////  Created by Adrian Iraizos Mendoza on 4/8/21.
+////
 //
-//  CategoriasView.swift
-//  AdrianPlaygrounds
+//import SwiftUI
 //
-//  Created by Adrian Iraizos Mendoza on 4/8/21.
+//struct CategoriasView: View {
+//    var catalogo: ModeloArticulos
+//    
+//    var body: some View {
+//        ScrollView{
+//            ScrollView(.horizontal){
+//                HStack{
+//                    ForEach(categoriasFiltradas) { articulo in
+//                        
+//                        articuloView(articulo: articulo)
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
 //
-
-import SwiftUI
-
-struct CategoriasView: View {
-    @EnvironmentObject var catalogo: Catalogo
-    @EnvironmentObject var fortuna: GastaFortunas
-    
-    let filtro: Articulo.categoria
-    
-    var categoriasFiltradas: [Articulo] {
-        switch filtro {
-        case .Inmuebles: return catalogo.articulosJson.filter {$0.categoria.contains("Inmuebles")}
-        case .Transporte: return catalogo.articulosJson.filter {$0.categoria.contains("Transporte")}
-        case .Personal: return catalogo.articulosJson.filter {$0.categoria.contains("Personal")}
-        case .Equipos: return catalogo.articulosJson.filter {$0.categoria.contains("Equipos")}
-        case .Tecnología: return catalogo.articulosJson.filter {$0.categoria.contains("Tecnología")}
-        case .Arte: return catalogo.articulosJson.filter {$0.categoria.contains("Arte")}
-            
-        }
-    }
-    
-    var body: some View {
-        ScrollView{
-            ScrollView(.horizontal){
-                HStack{
-                    ForEach(categoriasFiltradas) { articulo in
-                        
-                        articuloView(fortuna: _fortuna, articulo: articulo, categoria: filtro)
-                    }
-                }
-            }
-        }
-    }
-}
-
+//struct CategoriasView_Previews: PreviewProvider {
+//    static let modeloArticulos = ModeloArticulos()
+//    
+//    static var previews: some View {
+//        CategoriasView(catalogo: modeloArticulos, filtro: .Arte)
+//            .environmentObject(modeloArticulos)
+//    }
+//}

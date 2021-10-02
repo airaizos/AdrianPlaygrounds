@@ -6,10 +6,14 @@
 //
 
 import Foundation
+import Combine
 
+final class ModeloArticulos: ObservableObject {
+    @Published var articulos: [Articulo] = cargar("Catalogo.json")
+}
 
-final class Catalogo: ObservableObject {
-    @Published var articulosJson: [Articulo] = cargar("Catalogo.json")
+final class ModeloFortunas: ObservableObject {
+    @Published var fortunas: [Fortuna] = cargar("Fortuna.json")
 }
 
     func cargar<T: Decodable>(_ nombreArchivo: String) -> T {

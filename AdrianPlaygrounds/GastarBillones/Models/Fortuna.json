@@ -1,0 +1,33 @@
+[
+    {
+    
+    "id": 1,
+    "nombre": "Jeff Bezos",
+    "fortuna": 116_200_000_000,
+    "nombreImagen": "Jeff Bezos"
+    },
+    {
+        "id": 2,
+        "nombre": "Amancio Ortega",
+        "fortuna": 76_600_000_000,
+        "nombreImagen": "Amancio Ortega"
+        },
+    {
+        "id": 3,
+        "nombre":  "Carlos Slim",
+        "fortuna": 61_500_000_000,
+        "nombreImagen": "Carlos Slim"
+        },
+    {
+        "id": 4,
+        "nombre":   "Jack Ma",
+        "fortuna": 47_100_000_000,
+        "nombreImagen": "Jack Ma"
+        },
+    {
+        "id": 5,
+        "nombre": "Françoise Bettancourt"
+        "fortuna": 59_300_000_000,
+        "nombreImagen": "Françoise Bettancourt"
+}
+]

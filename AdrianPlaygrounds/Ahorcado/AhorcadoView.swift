@@ -86,7 +86,7 @@ struct AhorcadoView: View {
             Image("\(ahorcado.imagenStrikes)")
                 .resizable()
                 .scaledToFit()
-            
+               
             VStack {
                 
                 // MARK: Botón Pido letra
@@ -99,8 +99,12 @@ struct AhorcadoView: View {
                     .multilineTextAlignment(.center)
                 
                     Button(action: {
+                        withAnimation (
+                            .interpolatingSpring(stiffness: 5, damping: 2)) {
+                            
                         ahorcado.pidoLetra(letraR: turnoLetra[turnoLetra.index(turnoLetra.startIndex, offsetBy: 0)])
                         turnoLetra = ""
+                            }
                         
                     })  {
                         Image(systemName: "square.and.arrow.down")
@@ -170,5 +174,6 @@ struct AhorcadoView: View {
 struct AhorcadoView_Previews: PreviewProvider {
     static var previews: some View {
         AhorcadoView()
+
     }
 }
