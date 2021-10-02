@@ -18,7 +18,7 @@ struct BastaView: View {
       
         VStack{
             Button(action: {
-                modelo.letra = modelo.abcd[Int.random(in: 0..<modelo.abcd.count)]
+                modelo.letra = modelo.abcd[Int.random(in: 0..<modelo.abcd.count)].lowercased()
                 modelo.palabrasEscritas = []
                 modelo.puntos = 0
                 iniciado.toggle()
@@ -31,7 +31,7 @@ struct BastaView: View {
                 Circle()
                     .foregroundColor(Color(red: 0.66, green: 0.33, blue: 77, opacity: 0.4))
                     .frame(width: 100, height: 100, alignment: .bottom)
-                Text("\(modelo.letra)")
+                Text("\(modelo.letra.uppercased())")
             .font(.system(size: 70))
                     .foregroundColor(.white)
             .bold()
@@ -44,22 +44,35 @@ struct BastaView: View {
                
           
             Button(action: {
-                modelo.palabraGuardada = modelo.palabra
-             
-                if modelo.palabrasEscritas.firstIndex(of: "\(modelo.palabraGuardada)") != nil {
-                    modelo.puntos += 0
-                    modelo.palabra = ""
-                    
-                    
-            } else if modelo.palabraGuardada.hasPrefix("\(modelo.letra)") {
-                    modelo.puntos += 3
-                    modelo.palabra = ""
-                    modelo.palabrasEscritas.append(modelo.palabraGuardada)
-                    
-                } else {
-                    modelo.puntos -= 1
-                    modelo.palabra = ""
-                }
+                
+                modelo.palabraGuardada = modelo.palabra.lowercased()
+                modelo.añadePalabra()
+                
+                
+//                modelo.palabraGuardada = modelo.palabra
+//
+//                //hay que hacer toda la función
+//
+////                guard valida(palabra: modelo.palabra) else {
+////                    // racha = 0
+////                    return
+////                }
+//
+//
+//                if modelo.palabrasEscritas.firstIndex(of: "\(modelo.palabraGuardada)") != nil {
+//                    modelo.puntos += 0
+//                    modelo.palabra = ""
+//
+//
+//            } else if modelo.palabraGuardada.hasPrefix("\(modelo.letra)") {
+//                    modelo.puntos += 3
+//                    modelo.palabra = ""
+//                    modelo.palabrasEscritas.append(modelo.palabraGuardada)
+//
+//                } else {
+//                    modelo.puntos -= 1
+//                    modelo.palabra = ""
+//                }
             }
                    , label: {
                 Text("Siguiente")
@@ -77,6 +90,9 @@ struct BastaView: View {
             }.disabled(iniciado ? false : true)
             Spacer()
             Text("Instrucciones: Escribe una palabra que inicie con la letra que aparece y gana 3 puntos, sino pierdes 1").multilineTextAlignment(.center)
+                .alert(isPresented: $modelo.mostrarError) {
+                    Alert(title: Text("\(modelo.errorTitulo)"), message: Text("\(modelo.errorMensaje)"),dismissButton: .default(Text("Entendido")))
+                }
         } .padding()
     }
 }
