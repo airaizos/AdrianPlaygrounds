@@ -18,7 +18,6 @@ struct rectanguloBandera: ViewModifier {
     }
 }
 
-
 // MARK: Colores
  let colorBandera1 = Color(red: 1.000, green: 0.988, blue: 0.251, opacity: 1.000)
 let colorBandera2 = Color(red: 0.980, green: 0.729, blue: 0.380, opacity: 1.000)

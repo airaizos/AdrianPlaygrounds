@@ -13,9 +13,6 @@ struct PiedraPapelView: View {
     @State private var escalaAnimacion:[Double] = [0,0,0,0,0]
     @State private var idCarta = 0
     
-    
-    
-    
     @ObservedObject var partida = PiedraPapel()
     
     let gridScore = [GridItem(.fixed(10))]
