@@ -18,6 +18,8 @@
 		3A03F057270CF85900B1F57E /* ObservaLasFigurasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03F056270CF85900B1F57E /* ObservaLasFigurasViewModel.swift */; };
 		3A06092E26ADC2C8005F5488 /* PiedraPapelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06092D26ADC2C8005F5488 /* PiedraPapelModel.swift */; };
 		3A06093026ADC2D5005F5488 /* PiedraPapelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06092F26ADC2D5005F5488 /* PiedraPapelView.swift */; };
+		3A07DB15274D5E5D0025BCB9 /* BlackJackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A07DB14274D5E5D0025BCB9 /* BlackJackModel.swift */; };
+		3A07DB17274D7EB70025BCB9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A07DB16274D7EB70025BCB9 /* CardView.swift */; };
 		3A15659D269F3A7000EA9883 /* BastaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15659C269F3A7000EA9883 /* BastaModel.swift */; };
 		3A1565A0269F458F00EA9883 /* DNIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15659F269F458F00EA9883 /* DNIView.swift */; };
 		3A1565A2269F45C600EA9883 /* DNIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1565A1269F45C600EA9883 /* DNIModel.swift */; };
@@ -36,6 +38,8 @@
 		3AE6D65226B8456B00819C51 /* articulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6D65126B8456B00819C51 /* articulo.swift */; };
 		3AE6D65426B847BA00819C51 /* articuloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6D65326B847BA00819C51 /* articuloView.swift */; };
 		3AE6D65826B85C5600819C51 /* GastaFortunasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6D65726B85C5600819C51 /* GastaFortunasModel.swift */; };
+		3AE99FCE2758E67D00529BBC /* finPartida.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AE99FCC2758E67D00529BBC /* finPartida.wav */; };
+		3AE99FCF2758E67D00529BBC /* dameCarta.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AE99FCD2758E67D00529BBC /* dameCarta.wav */; };
 		3AEDD088270E095B00BCB24D /* FiguraView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEDD087270E095B00BCB24D /* FiguraView2.swift */; };
 		3AEDD08A270E518E00BCB24D /* FiguraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEDD089270E518E00BCB24D /* FiguraView.swift */; };
 		3AEF01552708913D00A8C2D7 /* PruebaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF01542708913D00A8C2D7 /* PruebaView.swift */; };
@@ -75,6 +79,8 @@
 		3A03F056270CF85900B1F57E /* ObservaLasFigurasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservaLasFigurasViewModel.swift; sourceTree = "<group>"; };
 		3A06092D26ADC2C8005F5488 /* PiedraPapelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelModel.swift; sourceTree = "<group>"; };
 		3A06092F26ADC2D5005F5488 /* PiedraPapelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelView.swift; sourceTree = "<group>"; };
+		3A07DB14274D5E5D0025BCB9 /* BlackJackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackModel.swift; sourceTree = "<group>"; };
+		3A07DB16274D7EB70025BCB9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3A15659C269F3A7000EA9883 /* BastaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastaModel.swift; sourceTree = "<group>"; };
 		3A15659F269F458F00EA9883 /* DNIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNIView.swift; sourceTree = "<group>"; };
 		3A1565A1269F45C600EA9883 /* DNIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNIModel.swift; sourceTree = "<group>"; };
@@ -93,6 +99,8 @@
 		3AE6D65126B8456B00819C51 /* articulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articulo.swift; sourceTree = "<group>"; };
 		3AE6D65326B847BA00819C51 /* articuloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articuloView.swift; sourceTree = "<group>"; };
 		3AE6D65726B85C5600819C51 /* GastaFortunasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastaFortunasModel.swift; sourceTree = "<group>"; };
+		3AE99FCC2758E67D00529BBC /* finPartida.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finPartida.wav; sourceTree = "<group>"; };
+		3AE99FCD2758E67D00529BBC /* dameCarta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dameCarta.wav; sourceTree = "<group>"; };
 		3AEDD087270E095B00BCB24D /* FiguraView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiguraView2.swift; sourceTree = "<group>"; };
 		3AEDD089270E518E00BCB24D /* FiguraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiguraView.swift; sourceTree = "<group>"; };
 		3AEF01542708913D00A8C2D7 /* PruebaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaView.swift; sourceTree = "<group>"; };
@@ -166,6 +174,7 @@
 				3A006D45269E1474006C8F3D /* AdrianPlaygroundsApp.swift */,
 				3A006D5A269E1590006C8F3D /* PaginaPrincipal.swift */,
 				3A006D53269E1475006C8F3D /* Info.plist */,
+				3AE99FCB2758E67D00529BBC /* sonidos */,
 				3A19A20A27064BE40060AA1A /* Generales */,
 				3A006D4B269E1475006C8F3D /* Preview Content */,
 			);
@@ -275,6 +284,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3AE99FCB2758E67D00529BBC /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				3AE99FCC2758E67D00529BBC /* finPartida.wav */,
+				3AE99FCD2758E67D00529BBC /* dameCarta.wav */,
+			);
+			path = sonidos;
+			sourceTree = SOURCE_ROOT;
+		};
 		3AEF01672708BFC800A8C2D7 /* Ajustes */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +354,8 @@
 			isa = PBXGroup;
 			children = (
 				3AEF01612708BEC900A8C2D7 /* BlackJackView.swift */,
+				3A07DB14274D5E5D0025BCB9 /* BlackJackModel.swift */,
+				3A07DB16274D7EB70025BCB9 /* CardView.swift */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -415,10 +435,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE99FCF2758E67D00529BBC /* dameCarta.wav in Resources */,
 				3A006D4D269E1475006C8F3D /* Preview Assets.xcassets in Resources */,
 				3AF6946526F7CD790092BFA1 /* Fortuna.json in Resources */,
 				3A006D4A269E1475006C8F3D /* Assets.xcassets in Resources */,
 				3A607B6226A21D1D0050BE80 /* tips.json in Resources */,
+				3AE99FCE2758E67D00529BBC /* finPartida.wav in Resources */,
 				3AE6D65026B8452500819C51 /* Catalogo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,8 +488,10 @@
 				3AF6946126F7BAF00092BFA1 /* GastarBillones.swift in Sources */,
 				3AEFE39627098B6E0079A624 /* SumaRestaMultiplicaModel.swift in Sources */,
 				3AF38AB326AF016900E66CD3 /* PiedraPapelCircle.swift in Sources */,
+				3A07DB17274D7EB70025BCB9 /* CardView.swift in Sources */,
 				3AEDD08A270E518E00BCB24D /* FiguraView.swift in Sources */,
 				3AE6D64C26B8446400819C51 /* GastaFortunasView.swift in Sources */,
+				3A07DB15274D5E5D0025BCB9 /* BlackJackModel.swift in Sources */,
 				3AF460F1270274630083CA8E /* Banderas.swift in Sources */,
 				3AE6D65426B847BA00819C51 /* articuloView.swift in Sources */,
 				3AFC3D4D26C04B98003BA375 /* fotoView.swift in Sources */,
