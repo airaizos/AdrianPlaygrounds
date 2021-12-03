@@ -38,3 +38,25 @@ Consigue que la suma de las filas y columnas sea 15. Los números del 1 al 9 (si
 ## Ajustes
 *en proceso*
 
+## Previews
+
+*BlackJack*
+
+![BlackJack](https://user-images.githubusercontent.com/86532545/144602053-80ff12aa-92e4-4762-828b-bd35dd9dff9d.png)
+
+*Adivina las Figuras*
+
+![Adivina Las Figuras](https://user-images.githubusercontent.com/86532545/144602162-669ac3ba-505a-4c9e-aaec-354d848ae461.png)
+
+*MasterMind*
+
+![MasterMind](https://user-images.githubusercontent.com/86532545/144602224-a6097dd2-e09a-4c9e-8b94-83a778fc0cba.png)
+
+*Piedra Papel Tijeras Lagarto Spock*
+
+![PPTLS](https://user-images.githubusercontent.com/86532545/144602445-6a3c6cd2-c27e-4e78-863d-23114da517dc.png)
+
+*Adivina la Bandera*
+
+![Adivina la Bandera](https://user-images.githubusercontent.com/86532545/144602498-39f01c02-3fe7-497b-b41b-5194cbbebf5a.png)
+
