@@ -36,5 +36,5 @@ Gana al crupier consiguiendo sumar 21 con las cartas, puedes pedir todas las que
 Consigue que la suma de las filas y columnas sea 15. Los números del 1 al 9 (sin repetir).
 
 ## Ajustes
-*en proceso/
+*en proceso*
 
